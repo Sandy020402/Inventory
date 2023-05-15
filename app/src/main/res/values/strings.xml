@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string-array name="program_studi">
+        <item>TRPL</item>
+        <item>TRMG</item>
+        <item>CE</item>
+        <item>MI</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".historyuser">
+
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="5dp"
+            android:background="@drawable/table_border"
+            android:layout_margin="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:text="026541"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp" />
+
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:text="Nama Barang" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="Qty" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp"
+                    android:text="Status" />
+
+
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:text="Proyektor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp"
+                    android:text="Returned"
+                    android:textColor="#D5F61010"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:backgroundTint="#645CBB"
+                    android:gravity="center"
+                    android:text="Detail" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp" />
+
+
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:padding="5dp"
+        android:background="@drawable/table_border"
+        android:layout_margin="10dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="5dp"
+                android:text="026542"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="5dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="5dp"
+                android:text="Nama Barang" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="5dp"
+                android:text="Qty" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="5dp"
+                android:text="Status" />
+
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="5dp"
+                android:text="Proyektor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="5dp"
+                android:text="10"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="5dp"
+                android:text="Requested"
+                android:textColor="#FFEB3B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:backgroundTint="#645CBB"
+                android:gravity="center"
+                android:text="Detail" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="5dp" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

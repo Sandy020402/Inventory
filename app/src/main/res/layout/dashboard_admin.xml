@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardAdminActivity">
+
+
+    <Button
+        android:id="@+id/buttonTambahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="+ Tambah Barang"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="5dp"
+            android:background="@drawable/table_border"
+            android:layout_margin="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:text="024567"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:padding="5dp" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:text="Nama Barang" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="Qty" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:padding="5dp" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="5dp"
+                    android:text="Proyektor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp"
+                    android:text="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:padding="5dp" />
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#1870D5"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:text="Edit" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:padding="5dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FF0000"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_column="4"
+                    android:text="Delete" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

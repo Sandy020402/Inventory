@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/tvnamadetail_detail_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="663dp"
+        android:text="Kode Peminjaman"
+        android:textColor="#D5000000"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvnama_detail_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="641dp"
+        android:text="0112"
+        android:textColor="#000"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvdnama_detail_barang"
+        android:layout_width="88dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="607dp"
+        android:text="Nama Barang"
+        android:textColor="#D6000000"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvdnama_detail_barang2"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="554dp"
+        android:text="Nama Peminjam"
+        android:textColor="#D6000000"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvdnama_detail_barang3"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="506dp"
+        android:text="Status"
+        android:textColor="#D6000000"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvdnama_detail_barang5"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="455dp"
+        android:text="Action By"
+        android:textColor="#D6000000"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvdnama_detail_barang6"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="406dp"
+        android:text="Date"
+        android:textColor="#D6000000"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvddetail_detail_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="587dp"
+        android:text="Proyektor"
+        android:textColor="#000"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvddetail_detail_barang2"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="534dp"
+        android:text="Angga Suhendra"
+        android:textColor="#000"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvddetail_detail_barang3"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="486dp"
+        android:text="Requested"
+        android:textColor="#000"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvddetail_detail_barang4"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="436dp"
+        android:text="Angga Suhendra"
+        android:textColor="#000"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvddetail_detail_barang5"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="387dp"
+        android:text="Monday, 24 Feb 2023 12:03:45"
+        android:textColor="#000"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
